@@ -39,7 +39,7 @@ function sp_handle_student_data($attributes){
 
     $attributes = shortcode_atts(array(
       "name" => "Default Student",
-      "email"=>:"Default Email"
+      "email"=>"Default Email"
     ), $attributes,"Student");
 }
 ?>
