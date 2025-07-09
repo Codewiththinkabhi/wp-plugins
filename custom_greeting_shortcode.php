@@ -17,7 +17,7 @@ function cgs_greeting_shortcode( $atts ) {
         'name' => 'world'
     ), $atts, 'greeting' );
 
-return'hello '.esc_html($atts['name']).'!'
+return'hello '.esc_html($atts['name']).'!';
 
 }
 
