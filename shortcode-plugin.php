@@ -7,7 +7,7 @@
 */
 
 //add_short code is wordpress function in which one is tag and the another is callback function call back funnctions name must be unique
-
+//[message]
 add_shortcode("message","sp_show_static_message");
 
 function sp_show_static_message() {
