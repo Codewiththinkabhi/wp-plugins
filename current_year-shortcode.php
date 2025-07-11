@@ -8,7 +8,7 @@
 
 
 //Shortcode for current year Automatically keeps the year updated without editing your footer manually
-
+//[year]
 add_shortcode('year','current_year_shortcode');
 
 function current_year_shortcode (){
